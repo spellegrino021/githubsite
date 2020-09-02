@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'stpelleg-premium-test'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_b9a3982ad3154ae1a01a892b8fe315cd }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_eaebbd23510a4a6ba57ea9eb63b92018 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
