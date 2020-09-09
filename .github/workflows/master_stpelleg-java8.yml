@@ -28,5 +28,5 @@ jobs:
       with:
         app-name: 'stpelleg-java8'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_703d1c71f6634bab997497a33c69fc68 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_f119d0a092644319b610cbd3d1bcf0ea }}
         package: '${{ github.workspace }}/target/*.jar'
